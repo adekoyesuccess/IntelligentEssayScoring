@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import textstat
 
 # Sample essay (replace with your actual third essay)

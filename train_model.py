@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 import nltk
@@ -10,7 +11,7 @@ nltk.download("stopwords")
 from nltk.corpus import stopwords
 
 # Load preprocessed data
-df = pd.read_csv("data/cleaned_topics.csv")
+df = pd.read_csv("daimta/cleaned_topics.csv")
 
 # 🔄 Convert topics to numerical representation (TF-IDF)
 vectorizer = TfidfVectorizer(stop_words=stopwords.words("english"))
